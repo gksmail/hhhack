@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md" style="font-weight:bold;">
-                    HH Hackaton
+                    Welcom to HH Hackaton!!!
                 </div>
 
             </div>
