@@ -64,12 +64,12 @@
             }
         </style>
     </head>
-    <body>
+    <body style="background: url(/fone.jpg) no-repeat 100%;">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @if (Auth::check())
-                        <a href="{{ url('/home') }}">HH Hackaton</a>
+                        <a href="{{ url('/home') }}">Формула труда</a>
                     @else
                         <a href="{{ url('/login') }}">Вход</a>
                         <a href="{{ url('/register') }}">Регистраций</a>
@@ -78,8 +78,10 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md" style="font-weight:bold;">
-                    Welcom to HH Hackaton!!!
+                <div class="title m-b-md" style="font-weight:bold;font-size:50pt;">
+
+                    <span style="background-color:#555555; width:80px;font-size:50pt;"><img src="/header-logo.png" style="width:50px;"></span> 
+              &nbsp;<span style="font-size:45pt;">Мастер класс</span>
                 </div>
 
             </div>
