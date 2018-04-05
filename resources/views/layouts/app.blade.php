@@ -29,14 +29,15 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        HH Hackaton
+                        Мастер класс
                     </a>
                 </div>
-
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
                         &nbsp;
+                    <ul class="nav navbar-nav">
+                          <li><a href="/employeers" class="title"><i class="fa fa-gift"></i>&nbsp;Рабочие</a></li>
+                          <li><a href="/lessons" class="title"><i class="fa fa-users"></i>&nbsp;Уроки</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

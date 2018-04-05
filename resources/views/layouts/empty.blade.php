@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>HH Hackaton</title>
+    <title>Мастер класс</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -29,7 +29,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <span style="font: 16pt cursive;">HH Hackaton
+                        <span style="font: 16pt cursive;">Мастер класс
                     </a>
                 </div>
 

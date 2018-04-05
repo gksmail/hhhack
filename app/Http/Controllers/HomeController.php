@@ -24,5 +24,15 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }               
+    public function employeers()
+    {
+        return view('home');
     }
+    public function lessons()
+    {
+        return view('home');
+    }
+
+
 }
